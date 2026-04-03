@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main-title {
+    color: #1a2e44;
+    text-align: center;
+    margin: 40px 0 30px;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 25px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #1e6fb5;
+}
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+.card h2 {
+    color: #1a2e44;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card p {
+    color: #555;
+    line-height: 1.7;
+}
+.card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.bouton-bleu {
+    background: #1a2e44;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+.bouton-bleu:hover {
+    background: #1e6fb5;
+}

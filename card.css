@@ -1,0 +1,53 @@
+.voiture-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.card-voiture {
+    width: 220px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    background: white;
+    border-top: 3px solid #1e6fb5;
+}
+.card-voiture:hover {
+    transform: translateY(-5px);
+}
+.card-voiture img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-voiture h3 {
+    color: #1a2e44;
+    font-size: 1rem;
+    margin: 10px 0 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card-voiture p {
+    color: #666;
+    font-size: 0.85rem;
+    padding: 0 12px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+.btn-voiture {
+    display: inline-block;
+    background: #1a2e44;
+    color: white;
+    text-decoration: none;
+    padding: 8px 22px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+.btn-voiture:hover {
+    background: #1e6fb5;
+}
